@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
+
+
+@font-face {
+    font-family:DIGITALDREAM;
+    src: url('css/DS-DIGIT.TTF');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins',sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:#222;
+    align-items: center;
+    user-select: none;
+    /* cursor: pointer; */
+}
+.container{
+    width: 500px;
+    height: 250px;
+    background-color:#222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border:37px solid #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 30px;
+    border-inline: 10px;
+}
+.container div{
+    font-family: DIGITALDREAM;
+    width: 50px;
+    font-size: 45px;
+    background: -webkit-linear-gradient(#f3f703, #f3f603);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+
+h2{
+    text-transform:capitalize;
+    color:#f3f703;
+    font-size: 30px;
+    font-family:'Poppins',sans-serif;
+    letter-spacing: 10px;
+}
