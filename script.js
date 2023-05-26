@@ -5,6 +5,7 @@ function Clock(){
     var hh=time.getHours();
     var mm=time.getMinutes();
     var ss=time.getSeconds();
+    var txt = hh >= 12 ? "PM" : "AM";
     console.log(time);
     var txt="AM";
     if(hh>12){
@@ -35,6 +36,9 @@ m[1].innerHTML=mm[1];
 ss=ss.toString();
 s[0].innerHTML=ss[0];
 s[1].innerHTML=ss[1];
+
+const txtElement = document.querySelector('.txt');
+txtElement.innerHTML = txt;
     
 }
 Clock();
